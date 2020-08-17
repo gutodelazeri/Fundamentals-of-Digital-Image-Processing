@@ -1,2 +1,2 @@
 # Hybrid-Images
-Final work of Fundamentals of Digital Image Processing
+This work is an implementation of [this paper.](https://github.com/gutodelazeri/Fundamentals-of-Digital-Image-Processing/blob/master/Hybrid-Images/docs/Article.pdf)
