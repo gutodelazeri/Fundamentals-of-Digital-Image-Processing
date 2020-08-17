@@ -4,7 +4,7 @@ Inside the directory named src:
 > $ python3 main.py baseImage alternativeImage highpass lowpass  
 
 * baseImage: name of the image to be seen from close
-* alternativeImage: name of the image to be seen from close
+* alternativeImage: name of the image to be seen from far
 * highpass: cutoff frequency of the highpass filter
 * lowpass: cutoff frequency of the lowpass filter  
 
