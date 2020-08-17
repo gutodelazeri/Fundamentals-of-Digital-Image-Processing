@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>867</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pasteImage">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>250</y>
+      <width>113</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>831</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="convertToGray">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>20</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 57 20pt &quot;Futura&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Convert to Gray</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="flip_Horizontally">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>113</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 57 15pt &quot;Futura&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Horizontally</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="flip_Vertically">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>50</y>
+       <width>113</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 57 15pt &quot;Futura&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Vertically</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Flip_label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 57 20pt &quot;Futura&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Mirroring</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="grayQuantization_label">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>30</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 57 16pt &quot;Futura&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Gray Quantization</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>602</x>
+       <y>60</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="rightSet_label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>260</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/icons/img/right_set.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="edited_label">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>460</y>
+      <width>59</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 15pt &quot;Futura&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Edited</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="canvas_edited">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>160</y>
+      <width>291</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="canvas_original">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>291</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="original_label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>460</y>
+      <width>59</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 15pt &quot;Futura&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Original</string>
+    </property>
+   </widget>
+   <zorder>rightSet_label</zorder>
+   <zorder>pasteImage</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>edited_label</zorder>
+   <zorder>canvas_edited</zorder>
+   <zorder>canvas_original</zorder>
+   <zorder>original_label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>867</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionOpen_Image"/>
+    <addaction name="actionSave_Image"/>
+   </widget>
+   <addaction name="menuOptions"/>
+  </widget>
+  <action name="actionOpen_Image">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/img/open_folder.png</normaloff>:/new/icons/img/open_folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Image</string>
+   </property>
+  </action>
+  <action name="actionSave_Image">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/img/save_image.png</normaloff>:/new/icons/img/save_image.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save Image</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

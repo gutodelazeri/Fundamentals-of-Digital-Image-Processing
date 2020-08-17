@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>img/open_folder.png</file>
+        <file>img/save_image.png</file>
+        <file>img/right_set.png</file>
+    </qresource>
+</RCC>
