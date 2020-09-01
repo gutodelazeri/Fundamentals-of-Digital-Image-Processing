@@ -53,3 +53,7 @@ compile_commands.json
 
 # Mac OS
 .DS_Store
+
+# Pycharm
+
+.idea
