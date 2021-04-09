@@ -6,4 +6,4 @@ This is a collection of activities that I made in the context of INF01046, a dig
 A compilation of three programs that implement several digital image processing concepts, like contrast variation, brightness variation, grayscale conversion, histogram calculation, quantization of grayscale images, horizontal and vertical mirroring, rotation, convolution, filtering in the Frequency Domain, etc. All the programs have a graphical interface.
    
 ### Hybrid Images
-Final project of the course. It consists in the implementation of a technich to create hybrid images that is described in [this article](https://github.com/gutodelazeri/Fundamentals-of-Digital-Image-Processing/blob/master/Hybrid-Images/docs/Article.pdf).
+Final project of the course. It consists in the implementation of a a technic to create hybrid images that is described in [this article](https://github.com/gutodelazeri/Fundamentals-of-Digital-Image-Processing/blob/master/Hybrid-Images/docs/Article.pdf).
