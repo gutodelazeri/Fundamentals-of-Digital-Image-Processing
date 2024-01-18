@@ -1,6 +1,6 @@
 # Usage
 
-Inside the directory named src:  
+Usage:  
 > $ python3 main.py baseImage alternativeImage highpass lowpass  
 
 * baseImage: name of the image to be seen from close
